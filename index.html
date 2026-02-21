@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Suncrest Residences — Investor Presentation</title>
+  <meta name="description" content="Suncrest Residences — A premium residential development opportunity for accredited investors and development partners." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Suncrest Residences</a>
+      <nav class="nav" id="nav">
+        <a href="#overview">Overview</a>
+        <a href="#financials">Financials</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#location">Location</a>
+        <a href="#team">Team</a>
+        <a class="cta" href="#contact">Invest / Contact</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Suncrest Residences</h1>
+          <p class="lead">A premium 48-unit low-rise residential development with strong rental demand and targeted IRR of 18%.</p>
+          <div class="hero-ctas">
+            <a class="primary" href="#financials">Investment Highlights</a>
+            <a class="secondary" href="#contact">Request Info</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/placeholder.svg" alt="Project rendering placeholder" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="overview">
+      <h2>Project Overview</h2>
+      <p>Suncrest Residences is a planned mixed-2-bedroom and 3-bedroom residential project located in a rapidly appreciating neighborhood adjacent to transit, retail and schools. The design emphasizes modern finishes, high-quality construction, and energy-efficient systems.</p>
+
+      <div class="cards">
+        <div class="card"><strong>Site</strong><span>0.8 acres, zoned R-3</span></div>
+        <div class="card"><strong>Units</strong><span>48 units (mix of 2BR/3BR)</span></div>
+        <div class="card"><strong>Construction</strong><span>18 months build program</span></div>
+        <div class="card"><strong>Total GDV</strong><span>€12.5M (proforma)</span></div>
+      </div>
+    </section>
+
+    <section class="container section" id="financials">
+      <h2>Investment Highlights</h2>
+      <ul class="highlights">
+        <li><strong>Target Equity IRR:</strong> 18%</li>
+        <li><strong>Projected Yield on Cost:</strong> 6.8%</li>
+        <li><strong>Estimated Build Cost:</strong> €7.1M</li>
+        <li><strong>Exit Strategy:</strong> Sale to institutional buyer or forward funding</li>
+      </ul>
+
+      <div class="financial-grid">
+        <div class="panel">
+          <h3>Capital Stack (Indicative)</h3>
+          <ul>
+            <li>Senior Debt: 60% LTC</li>
+            <li>Mezzanine / Preferred Equity: 10%</li>
+            <li>Developer Equity / Sponsor: 30%</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Proforma Summary</h3>
+          <table>
+            <tr><th>Item</th><th>Amount</th></tr>
+            <tr><td>Gross Development Value</td><td>€12,500,000</td></tr>
+            <tr><td>Build Cost</td><td>€7,100,000</td></tr>
+            <tr><td>Soft Costs & Fees</td><td>€1,200,000</td></tr>
+            <tr><td>Profit</td><td>€3,000,000</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <p class="note">These figures are indicative and subject to due diligence. Contact us for the full financial model and sensitivity analysis.</p>
+    </section>
+
+    <section class="container section" id="gallery">
+      <h2>Gallery & Floorplans</h2>
+      <p>Sample renderings and floorplans — replace these with your high-resolution assets.</p>
+      <div class="gallery">
+        <img src="assets/placeholder.svg" alt="Rendering 1" />
+        <img src="assets/placeholder.svg" alt="Rendering 2" />
+        <img src="assets/placeholder.svg" alt="Floorplan" />
+      </div>
+    </section>
+
+    <section class="container section" id="location">
+      <h2>Location</h2>
+      <p>Located 10 minutes from the city center with strong transit links and improving local infrastructure.</p>
+      <div class="map-wrap">
+        <!-- Replace the src with a real embed or image -->
+        <iframe title="Project location" src="https://maps.google.com/maps?q=Berlin&amp;output=embed" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="container section" id="team">
+      <h2>Developer & Team</h2>
+      <p>Experienced sponsor with a track record of delivering residential assets on time and on budget.</p>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="assets/placeholder.svg" alt="Founder" />
+          <h4>Alex Green</h4>
+          <p>Managing Partner — 15 years in residential development</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/placeholder.svg" alt="Asset manager" />
+          <h4>Maya Silva</h4>
+          <p>Head of Acquisitions & Finance</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="contact">
+      <h2>Contact & Next Steps</h2>
+      <p>To request the full investment pack (model, drawings, planning docs) please contact the sponsor.</p>
+      <div class="contact-grid">
+        <div>
+          <p><strong>Email</strong><br><a href="mailto:invest@suncrest.dev">invest@suncrest.dev</a></p>
+          <p><strong>Phone</strong><br>+49 30 1234 5678</p>
+        </div>
+        <form id="contactForm" class="contact-form" onsubmit="return submitForm(event)">
+          <label>Name<input name="name" required></label>
+          <label>Email<input name="email" type="email" required></label>
+          <label>Message<textarea name="message" rows="4"></textarea></label>
+          <div class="form-actions">
+            <button type="submit" class="primary">Request Info</button>
+            <a class="secondary" href="#" id="downloadDeck">Download Investor Deck (PDF)</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Suncrest Developments — All rights reserved. Confidential investor materials.</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
