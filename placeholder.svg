@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet">
+  <rect width="1200" height="800" fill="#eef2f7"/>
+  <g fill="#c7d2da" font-family="Inter,Arial,Helvetica,sans-serif" font-size="36">
+    <text x="50%" y="48%" text-anchor="middle" fill="#94a3b8">Rendering / Photo Placeholder</text>
+    <text x="50%" y="56%" text-anchor="middle" fill="#94a3b8" font-size="18">Replace with high-res project assets</text>
+  </g>
+</svg>
